@@ -67,5 +67,6 @@ The [Data Dashboard](https://www.sfdph.org/dph/files/mtgsgrps/foodsectaskfrc/doc
 
 ### Data Visualization
 _The following map shows the location of each Food Bank's headquarters.The blue markers show the location of each food bank's headquarters relative to major cities._
-![yu8Yo-california-s-major-food-banks-and-where-their-headquarters-are-located-by-region (2)](https://user-images.githubusercontent.com/109770923/183364050-4aa69aaa-c085-4443-832c-938fbc731bb6.png)
+![yu8Yo-california-s-major-food-banks-and-where-their-headquarters-are-located-by-region (2)](https://user-images.githubusercontent.com/109770923/183367107-c20a6e6e-7af8-4053-ae41-26c7c2faacda.png)
+
 
