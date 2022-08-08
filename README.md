@@ -18,6 +18,7 @@ Question 1: _Which San Francisco Bay area counties are there foodbanks located i
 __Answer: The food banks are located in Alameda, Marin, San Francsico, San Mateo, and Santa Clara counties.__
 
 Question 2: _Based on this data set, which zip codes have the highest number of foodbanks?_
+
 For this question, we will need to organize the data and create new columns. 
 1. Organizing our data would be a lot easier if we had the zip codes isolated. Since the zip codes are at the end of each address, one way to complete this function navigate to the DATA tab and use the "Split text to columns" feature. Within the _Seperator_ field, use the comma option. 
 _Note: If your data is clean this should split them evenly, however, if there are discrepancies some fields will not split correctly._
@@ -31,7 +32,7 @@ _Note: If your data is clean this should split them evenly, however, if there ar
 ![Screenshot (51)](https://user-images.githubusercontent.com/109770923/183334808-e4c77a71-d03b-411d-b921-13864a69d6a8.png)
 __Answer: The zip code with the highest number of food banks is 95973.__
 
-Question 3: __We know the zip codes, but which city has the most amount of foodbanks?__
+Question 3: __We know which zip codes have the highest amount of foodbanks, but which city in California has the most?__
 1. Similar before, create a PIVOT TABLE.
 2. However, instead your __Rows__ field will include "City" and __Values__ will include "Name", with the settings set to COUNTA and DEFAULT. 
 3. Change the settings in the __Rows__, "City", field so that your _Order_ DESCENDING and it's _Sorted By_ COUNTA of "Name". 
