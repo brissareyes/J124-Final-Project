@@ -31,11 +31,15 @@ _Note: If your data is clean this should split them evenly, however, if there ar
 ![Screenshot (51)](https://user-images.githubusercontent.com/109770923/183334808-e4c77a71-d03b-411d-b921-13864a69d6a8.png)
 __Answer: The zip code with the highest number of food banks is 95973.__
 
+Question 3: __We know the zip codes, but which city has the most amount of foodbanks?__
+1. Similar before, create a PIVOT TABLE.
+2. However, instead your __Rows__ field will include "City" and __Values__ will include "Name", with the settings set to COUNTA and DEFAULT. 
+3. Change the settings in the __Rows__, "City", field so that your _Order_ DESCENDING and it's _Sorted By_ COUNTA of "Name". 
+4. The data should look as follows:
+![Screenshot (52)](https://user-images.githubusercontent.com/109770923/183337673-f811d0d8-75f0-4097-878e-84161fabe8aa.png)
+__Answer: The city with the largest number of foodbanks is Chico, California.__
 
-
-
-
-
+Question 4: __
 
 
 
