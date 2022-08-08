@@ -1,4 +1,4 @@
-# J124 Final Project: Major Foodbanks in California
+# J124 Final Project: Mapping Foodbanks in California
 ## By Brissa Reyes 
 ### Data Analysis Process
 
