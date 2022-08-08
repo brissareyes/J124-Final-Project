@@ -1,4 +1,4 @@
-# J124 Final Project: Major Foodbanks in California
+# J124 Final Project: Major Foodbanks Headquarters in California
 ## By Brissa Reyes 
 ### Data Analysis Process
 
@@ -65,20 +65,7 @@ Some possible people to interview for this type of story can be those running th
 
 The [Data Dashboard](https://www.sfdph.org/dph/files/mtgsgrps/foodsectaskfrc/docs/datadashboard-combined-529.pdf) by the San Francisco Board of Supervisors, created by Paula Jones (SF Department of Public Health), would be a helpful source for a story documenting food security in the Bay Area. The creator’s contact information is paula.jones@sfdph.org. This resource contains numerous data visualizations and resources for organizations that provide food and information regarding food insecurity.Another source that might be beneficial for analyzing the broader picture of California and food insecurity can be the [2020 American Community Survey](https://data.census.gov/cedsci/table?q=poverty%20in%20California&tid=ACSST5Y2020.S1701) on poverty status in California. This source can provide the bigger picture of how poverty levels may overlap with food insecurity if particular areas.  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Data Visualization
+_The following map shows the location of each Food Bank's headquarters.The blue markers show the location of each food bank's headquarters relative to major cities._
+![yu8Yo-california-s-major-food-banks-and-where-their-headquarters-are-located-by-region (2)](https://user-images.githubusercontent.com/109770923/183364050-4aa69aaa-c085-4443-832c-938fbc731bb6.png)
 
