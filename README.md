@@ -8,13 +8,14 @@ The first step to analyzing data is cleaning it! I used the program, [OpenRefine
 
 __Step-by-Step Answer"__
 
-Question 1: _Where are all the foodbanks located in the San Francisco Bay Area?_
+Question 1: _Which San Francisco Bay area counties are there foodbanks located in?_
 
 1. To organize the data based on location we will isolate the area codes using the phone numbers. First, navigate to INSERT and choose PIVOT TABLE. Use the recommended settings that includes all the fields of data. 
 2. Within your PIVOT TABLE settings, place the "County" data with the __Row__ field and the "Phone" data within the __Values__ field. The setting for the "Phone" can be set to _Summarize by_ COUNTA and _Show as_ Default. 
 3. Next, we will use the _Filter_ function to organize the data based on region. Navigate to the _Filter by values_ option. In the text box input the values or, in this case, the area codes that are to be isolated. The area codes for San Francisco Bay Area are: 415, 510, 650, and 408. These should be typed in the format that your data is in (in this case using parenthesis, e.g (510)).
 4. The pivot table will look as follows:
 ![Screenshot (48)](https://user-images.githubusercontent.com/109770923/183323155-77c209e7-0305-4c5b-af67-afad43b5d96b.png)
+__Answer: The food banks are located in Alameda, Marin, San Francsico, San Mateo, and Santa Clara counties.__
 
 Question 2: _Based on this data set, which zip codes have the highest number of foodbanks?_
 For this question, we will need to organize the data and create new columns. 
@@ -28,7 +29,7 @@ _Note: If your data is clean this should split them evenly, however, if there ar
 6. The, you will filter the DATA, using the "Sort Range" feature and then using the "Advanced range sorting option". Sort the Zip Code Column from Z-->A. 
 7. The data should look as follows: 
 ![Screenshot (51)](https://user-images.githubusercontent.com/109770923/183334808-e4c77a71-d03b-411d-b921-13864a69d6a8.png)
-
+__Answer: The zip code with the highest number of food banks is 95973.__
 
 
 
