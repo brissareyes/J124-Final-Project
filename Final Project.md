@@ -1,4 +1,4 @@
-# J124 Final Project: Major Foodbanks Headquarters in California
+# J124 Final Project: Major Foodbanks in California
 ## By Brissa Reyes 
 ### Data Analysis Process
 
