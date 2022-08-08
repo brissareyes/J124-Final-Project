@@ -48,15 +48,15 @@ Question 4: _Which foodbanks are in each individual county?_
 ![Screenshot (53)](https://user-images.githubusercontent.com/109770923/183344013-8704afb4-db23-41d1-bd2c-0836f5b9f986.png)
 __Answer: The Pivot table shows all the counties and the foodbanks within their locations!__
 
-Question 5: _
+Question 5: _Which regions in California with the highest poverty rates have foodbanks?_
 
+Some research one which counties have the highest poverty rates must be known before approaching this question. From a [Google Search](https://www.ppic.org/publication/poverty-in-california/#:~:text=Yolo%20(20.9%25)%20and%20Los,local%20areas%20and%20legislative%20districts.), the areas of Yolo and Los Angeles County were idenitified.
 
-
-
-
-
-
-
+1. For this question, you can easily find the answer by sorting the data.
+2. In the main, "California-Foodbanks" tab sort the data using the Filter function at the top area of Google Sheets.
+3. Use the _Filter by values_ function to find Yolo and Los Angeles County. 
+![Screenshot (54)](https://user-images.githubusercontent.com/109770923/183345176-700ac9db-be74-4d76-bd2c-f6f7031ac29b.png)
+__Answer: The major foodbanks that are in the county's with the highest poverty rate are the Yolo Food Bank, Westside Food Bank, and Los Angeles Regional Food Bank.__
 
 
 
