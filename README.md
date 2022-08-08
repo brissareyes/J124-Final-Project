@@ -16,4 +16,52 @@ Question 1: _Where are all the foodbanks located in the San Francisco Bay Area?_
 4. The pivot table will look as follows:
 ![Screenshot (48)](https://user-images.githubusercontent.com/109770923/183323155-77c209e7-0305-4c5b-af67-afad43b5d96b.png)
 
-Question 2: _Based on this data set, which region of California has the most number of foodbanks (Northern, Central, and Southern California)?_
+Question 2: _Based on this data set, which zip codes have the highest number of foodbanks?_
+For this question, we will need to organize the data and create new columns. 
+1. Organizing our data would be a lot easier if we had the zip codes isolated. Since the zip codes are at the end of each address, one way to complete this function navigate to the DATA tab and use the "Split text to columns" feature. Within the _Seperator_ field, use the comma option. 
+_Note: If your data is clean this should split them evenly, however, if there are discrepancies some fields will not split correctly._
+2. The data should like as follows:
+![Screenshot (49)](https://user-images.githubusercontent.com/109770923/183333415-de6982d1-f855-478e-978f-9f3715115ecf.png)
+3. However, you may notice that the state and zip code fields are attached. This is becuase there were no commas seperating them in the cells. To fix this, perform the  "Split text to columns" feature once again isolating "CA" and the individal zip codes. Since the whole data set lists only California foodbanks we can disregard the column that lists the state. 
+4. Now, in order to see which zip code has the highest amount of foodbanks we'll have to create another PIVOT TABLE.
+5. This time, seperate the "Name" and "Zip Code" data into the _Rows_ section and "County" into _Values_ with the settings configured to COUNTA and DEFAULT.
+6. The, you will filter the DATA, using the "Sort Range" feature and then using the "Advanced range sorting option". Sort the Zip Code Column from Z-->A. 
+7. The data should look as follows: 
+![Screenshot (51)](https://user-images.githubusercontent.com/109770923/183334808-e4c77a71-d03b-411d-b921-13864a69d6a8.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
